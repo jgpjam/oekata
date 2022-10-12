@@ -11,7 +11,12 @@ class LocalMachineComputation: Computation {
 
     override fun transformVowels(input: String): Either<ValidTransformation, FailedTransformation> {
         return try {
-            Left(ValidTransformation("DDD is bisicilly strictiring fildirs"))
+            Left(ValidTransformation(
+                input.replace("a","i")
+                     .replace("e","i")
+                     .replace("o","i")
+                     .replace("u","i")
+            ))
         } catch (e: Exception) {
             Right(FailedTransformation)
         }
