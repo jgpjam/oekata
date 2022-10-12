@@ -11,10 +11,14 @@
     - Total freedom in terms of implementation technologies
     - Response expected in any type of media and format.
 
+# Small diagram
+![oekata-diagram](https://user-images.githubusercontent.com/4797703/195415079-883102b7-c6f5-4bc2-9322-995c62a0621e.png)
+
 # How-to
 Just execute main function to get the kata's result
 
 # What is wrong with this:
+
 - Using a full framework like spring boot for string 
 transformations is just wrong
 - Transformation class is nice because it gives type to
